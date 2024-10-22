@@ -1,0 +1,25 @@
+#include iostream
+
+using namespace std;
+
+/*
+	Возврат нескольких значений функции через ссылки.
+	Returning multiple function values ​​via references
+*/
+
+void Fun(int &aRef, int &bRef, int &cRef)
+{
+	aRef += 10;
+	bRef = 2;
+	cRef -= 100;
+}
+
+void main()
+{
+	int a = 32, b = 17, c = 245;
+	cout  a =   a  nb =   b  nc =   c  endl;
+
+	cout  Fun(a, b, c);  endl;
+	Fun(a, b, c);
+	cout  a =   a  nb =   b  nc =   c  endl;
+}
