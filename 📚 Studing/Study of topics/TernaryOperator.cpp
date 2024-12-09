@@ -3,7 +3,7 @@
 using namespace std;
 
 
-	Тернарный оператор
+	// Тернарный оператор
  
 
 void main()
@@ -14,14 +14,14 @@ void main()
 	int result = a++;  Унарный 
 	result = a + b;  Бинарный
 	
-	 аналогично тернарный оператор, но упрощает if-else
+	//аналогично тернарный оператор, но упрощает if-else
 
-	cout  Введите число ;
-	int c;
-	cin  c;
+	cout << "Введите число" << endl;
+	int = c;
+	cin >> c;
 	
-	 Обычно
-	cout  nC oбычный if ;
+	// Обычно
+	cout << "\nC oбычный if" << endl;
 	if (c  10)
 	{
 		cout  c  10  endl;
@@ -35,8 +35,8 @@ void main()
 		cout  c = 10  endl;
 	}
 
-	 с оператором
-	cout  nC тернарным оператором  ;
-	(c  10)  (cout  c  10  endl)  (c  10)  (cout  c  10  endl)  (cout  c = 10  endl);  Тернарный
+	//с оператором
+	cout << "\nC тернарным оператором" << endl;
+	cout << (c  10)  (cout  c  10  endl)  (c  10)  (cout  c  10  endl)  (cout  c = 10  endl);  // Тернарный
 
 }
