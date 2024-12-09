@@ -37,6 +37,6 @@ void main()
 
 	//с оператором
 	cout << "\nC тернарным оператором" << endl;
-	cout << (c > 10) ?? (cout << "c > 10" << endl) : (c < 10) ?? (cout << "c < 10" << endl) : (cout << "c = 10" << endl);  // Тернарный
+	cout << (c > 10) ? (cout << "c > 10" << endl) : (c < 10) ? (cout << "c < 10" << endl) : (cout << "c = 10" << endl);  // Тернарный
 
 }
